@@ -1,11 +1,8 @@
-import io, json, math, os, random, sqlite3, shutil, time
-pjn = os.path.join
+import io, math
 
 import numpy as np
-import PIL
 from PIL import Image
-from scipy import fft, stats
-import matplotlib.pyplot as plt
+from scipy import stats
 
 import importlib.resources as pkg_resources
 
